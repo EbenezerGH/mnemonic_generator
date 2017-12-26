@@ -11,7 +11,7 @@ class MainActivity : NavigationActivity() {
     }
 
     private fun initMainFragment() {
-        val fm = supportFragmentManager
+        val fm = fragmentManager
         var fragment = fm.findFragmentById(R.id.fragment_container)
         if (fragment == null) {
             fragment = HomeFragment()
@@ -19,6 +19,15 @@ class MainActivity : NavigationActivity() {
                     .add(R.id.fragment_container, fragment)
                     .commit()
         }
-
     }
+
 }
+
+/*
+*         //TODO: handle fragment backstack properly
+*         //TODO: remove all hardcoded strings
+*         //TODO: setup MVP framework
+*         //TODO: write tests
+*
+*
+* */
