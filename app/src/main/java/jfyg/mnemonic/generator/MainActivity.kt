@@ -14,7 +14,7 @@ class MainActivity : NavigationActivity() {
         val fm = supportFragmentManager
         var fragment = fm.findFragmentById(R.id.fragment_container)
         if (fragment == null) {
-            fragment = NavigationFragment()
+            fragment = HomeFragment()
             fm.beginTransaction()
                     .add(R.id.fragment_container, fragment)
                     .commit()
