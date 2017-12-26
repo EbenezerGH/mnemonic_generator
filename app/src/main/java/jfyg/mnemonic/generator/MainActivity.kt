@@ -24,7 +24,7 @@ class MainActivity : NavigationActivity() {
 }
 
 /*
-*         //TODO: handle fragment backstack properly
+*         //TODO: handle fragment backstack properly - https://developer.android.com/reference/android/app/FragmentManager.html#popBackStack()
 *         //TODO: remove all hardcoded strings
 *         //TODO: setup MVP framework
 *         //TODO: write tests
