@@ -6,4 +6,18 @@
 
     <string name="action_settings">Settings</string>
     <string name="action_suggestions">Suggestions</string>
+
+    <!-- Bip39Fragment Strings -->
+    <string name="number_of_words">Number of Words</string>
+    <string name="passphrase">Passphrase</string>
+    <string name="number_of_public_addresses">Number of Public Addresses</string>
+    <string name="generate">Generate</string>
+
+
+    <string name="twelve">12</string>
+    <string name="fifteen">15</string>
+    <string name="eighteen">18</string>
+    <string name="twentyone">21</string>
+    <string name="twentyfour">24</string>
+    <string name="num_of_words_hint">20</string>
 </resources>

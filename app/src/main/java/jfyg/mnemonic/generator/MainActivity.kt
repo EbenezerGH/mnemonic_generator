@@ -28,6 +28,7 @@ class MainActivity : NavigationActivity() {
 *         //TODO: remove all hardcoded strings
 *         //TODO: setup MVP framework
 *         //TODO: write tests
+*         //TODO: style layouts && add animations
 *
 *
 * */

@@ -4,16 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.SeekBar
 import jfyg.mnemonic.generator.HomeFragment
 import jfyg.mnemonic.generator.R
-import kotlinx.android.synthetic.main.fragment_bip39.num_of_words_sb
+//import kotlinx.android.synthetic.main.fragment_bip39.num_of_words_sb
 
 
 class Bip39Fragment : HomeFragment() {
     private lateinit var presenter: Bip39Presenter
 
-    var seekBar: SeekBar = num_of_words_sb
+//    var seekBar: SeekBar = num_of_words_sb
 
     override fun onCreateView(inflater: LayoutInflater?,
                               container: ViewGroup?,
