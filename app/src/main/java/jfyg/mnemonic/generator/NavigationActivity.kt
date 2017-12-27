@@ -7,6 +7,7 @@ import android.support.v4.view.GravityCompat
 import android.support.v7.app.ActionBarDrawerToggle
 import android.view.Menu
 import android.view.MenuItem
+import jfyg.mnemonic.generator.bip39.Bip39Fragment
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -76,7 +77,7 @@ open class NavigationActivity : AppCompatActivity(), NavigationView.OnNavigation
     }
 
     private fun openBip44Fragment() {
-        val bip44Fragment = Bip44Fragment()
+        val bip44Fragment = Bip39Fragment()
         val transaction = fragmentManager
                 .beginTransaction()
                 .replace(R.id.fragment_container, bip44Fragment)

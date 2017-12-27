@@ -12,7 +12,7 @@ open class HomeFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater?,
                               container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        activity.toolbar.setTitle("home")
+        activity.toolbar.title = "home"
 
         val view = inflater?.inflate(R.layout.fragment_home, container, false)
         return view
